@@ -46,7 +46,7 @@ def main():
 	clock = pygame.time.Clock()
 	FPS = 200
 
-	AGENTS = 200
+	AGENTS = 100
 
 	ga = GeneticMLP(layers=[2, 8, 8, 2], agents=AGENTS, best_agents=4)
 
