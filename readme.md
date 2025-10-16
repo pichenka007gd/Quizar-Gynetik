@@ -40,4 +40,5 @@ Clone the repository, build, and run a sample simulation:
 git clone https://github.com/pichenka007gd/Quizar-Gynetik.git
 cd Quizar-Gynetik
 make
+pip install -r requirements.txt
 python3 sample_cursor.py
