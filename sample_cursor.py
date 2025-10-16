@@ -48,7 +48,7 @@ def main():
 
 	AGENTS = 200
 
-	ga = GeneticMLP(layers=[2, 16, 16, 2], agents=AGENTS, best_agents=4)
+	ga = GeneticMLP(layers=[2, 8, 8, 2], agents=AGENTS, best_agents=4)
 
 	world = World(ga=ga, agent=FollowMouseAgent, agents_count=AGENTS,
 				  screen_size=(W, H), gen_steps=300)
