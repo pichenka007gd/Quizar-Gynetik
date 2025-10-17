@@ -1,4 +1,3 @@
-# sample_cursor.py — very short runnable example
 import random, math, numpy as np
 from pygame.math import Vector2
 
